@@ -1,0 +1,66 @@
+[
+    {
+        "name": "JavaScript",
+        "icon": "fab fa-js"
+    },
+    {
+        "name": "PHP",
+        "icon": "fab fa-php"
+    },
+    {
+        "name": "MySQL",
+        "icon": "fas fa-database"
+    },
+    {
+        "name": "AWS",
+        "icon": "fab fa-aws"
+    },
+    {
+        "name": "TypeScript",
+        "icon": "fas fa-code"
+    },
+    {
+        "name": "C++",
+        "icon": "fas fa-copyright"
+    },
+    {
+        "name": "CSS",
+        "icon": "fab fa-css3-alt"
+    },
+    {
+        "name": "React Native",
+        "icon": "fab fa-react"
+    },
+    {
+        "name": "Android",
+        "icon": "fa-brands fa-android"
+    },
+    {
+        "name": "IOS",
+        "icon": "fa-brands fa-apple"
+    },
+    {
+        "name": "Next.js",
+        "icon": "fab fa-react"
+    },
+    {
+        "name": "Docker",
+        "icon": "fa-brands fa-docker"
+    },
+    {
+        "name": "NestJS",
+        "icon": "fas fa-server"
+    },
+    {
+        "name": "Ubuntu",
+        "icon": "fab fa-ubuntu"
+    },
+    {
+        "name": "PostgreSQL",
+        "icon": "fas fa-database"
+    },
+    {
+        "name": "Google Cloud",
+        "icon": "fab fa-google"
+    }
+]

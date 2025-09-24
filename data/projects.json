@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Plataforma de Produtos",
+        "description": "Desenvolvimento de uma aplicação SPA (Single Page Application) com suporte a múltiplos idiomas, otimizada para tradução e indexação em mecanismos de busca, aplicando SEO e padrões de acessibilidade WAI-ARIA. A plataforma é totalmente responsiva, garantindo uma experiência consistente em diferentes dispositivos."
+    },
+    {
+        "title": "Gerenciamento de Obras em Condomínios",
+        "description": "Criação de um sistema de mensagens integrado à plataforma, permitindo comunicação direta entre os envolvidos na fiscalização de obras em condomínios horizontais, facilitando o acompanhamento e a gestão das atividades."
+    },
+    {
+        "title": "Sistema de Pagamentos",
+        "description": "Manutenção e evolução de um sistema de pagamentos robusto, incluindo split de pagamentos e antecipação de recebíveis. Integração de pagamentos via PIX, cartão de crédito e boleto por link de pagamento. Desenvolvimento de pagamentos recorrentes para e-commerce e de boleto com cartão, emitindo CCB. Participação em ativação de empréstimos com cartões, adequação à PCI DSS, integrações com Celcoin, EntrePay, Itaú, BTG Pactual e Pagar.me, além de sistemas biométricos antifraude."
+    },
+    {
+        "title": "Gestão de Abastecimentos",
+        "description": "Relatórios de consumo e compras, sistema antifraude (validação de motoristas, veículos e atendentes). Controle de despesas com PIX e retiradas em postos, App do cliente com geolocalização e proximidade da tag, reduzindo o pagamento para 30s. Manutenção de sistema de pagamento para postos."
+    },
+    {
+        "title": "Gerenciamento de Abastecimentos Interno",
+        "description": "Controle de bombas de combustível via socket em Android, comunicação com tanques em bases de suprimento e gestão de abastecimento de frotas, validando o frentista,motorista,veiculo e consumo."
+    },
+    {
+        "title": "Controle de Despesas",
+        "description": "Aplicativo Mobile para o colaborador solicitar o pagamento de despesas, com fluxo de alçadas para serem aprovadas, o colaborador consegue pagar por pix,saque,qr code e ter um limite de credito liberado para uso, com um fluxo de comprovação de gastos ao final do consumo, gerando relatórios de gastos por colaborador, criando um controle fechado de gastos."
+    },
+    {
+        "title": "Sistema de Pagamento por Reconhecimento Facial",
+        "description": "Fluxo de pagamento com comparação facial em tempo real combinado com OCR da placa do veículo para validação e aprovação da transação, aumentando segurança e agilidade."
+    },
+    {
+        "title": "Sistema de Análise Documental",
+        "description": "Implementação de análise de documentos com IA para detecção de fraudes em comprovantes de pagamento e automação da aprovação de transações, usando visão computacional e machine learning para validar autenticidade e reduzir riscos."
+    },
+    {
+        "title": "Sistema PDV",
+        "description": "Aplicação de Ponto de Venda (PDV) mobile desenvolvida com React Native para Android. O projeto foi concebido para gerenciar e registrar transações de abastecimento, oferecendo uma interface intuitiva e uma experiência otimizada que garante precisão e agilidade nas operações."
+    },
+    {
+        "title": "Plataforma de Crédito Pessoal",
+        "description": "Desenvolvimento de uma plataforma financeira de Crédito Pessoal que utiliza Cédula de Crédito Bancário (CCB) e um sistema de KYC (Know Your Customer) para aprovação de empréstimos. A aplicação permite que o cliente simule, solicite e receba o crédito via Pix, com a conveniência de pagar as parcelas utilizando o limite do cartão de crédito."
+    },
+     {
+        "title": "Gerenciamento de Infraestrutura em Nuvem",
+        "description": "Responsável pelo gerenciamento e manutenção de infraestruturas em nuvem nas plataformas AWS e Google Cloud. Minha atuação inclui o provisionamento de recursos, monitoramento de ambientes e implementação de melhores práticas para garantir a segurança, escalabilidade e alta disponibilidade das aplicações."
+    }
+    
+]
