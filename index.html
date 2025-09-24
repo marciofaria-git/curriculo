@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Marcio Faria — Portfólio de Desenvolvedor | JavaScript, PHP, DevOps</title>
+    <meta name="description"
+        content="Portfólio de Marcio Faria, Analista e Desenvolvedor de Sistemas com experiência em Full Stack, DevOps, Cloud (AWS, Google Cloud) e mobile (React Native). Conheça meus projetos." />
+    
+    <meta property="og:title" content="Marcio Faria — Portfólio" />
+    <meta property="og:description"
+        content="Projetos, experiências e habilidades em desenvolvimento, pagamentos, cloud e mobile." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.seu-dominio.com.br/" /> <meta property="og:image" content="https://www.seu-dominio.com.br/marcio.png" /> <meta name="theme-color" content="#121212" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Marcio Faria",
+      "jobTitle": "Analista e Desenvolvedor de Sistemas",
+      "url": "https://www.seu-dominio.com.br/",
+      "sameAs": [
+        "https://github.com/marciofaria-git",
+        "https://www.linkedin.com/in/marciomateusdev/"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Empresa Atual (opcional)"
+      }
+    }
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+    <nav role="navigation" aria-label="Navegação principal">
+        <div class="nav-container">
+            <div class="brand" aria-label="Marcio Faria">
+                <i class="fas fa-code"></i> Marcio Faria
+            </div>
+            <button class="hamburger" aria-label="Abrir menu" aria-controls="menu-principal" aria-expanded="false">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+            <div id="menu-principal" class="nav-links">
+                <a href="#inicio"><i class="fas fa-home"></i> Início</a>
+                <a href="#sobre"><i class="fas fa-user"></i> Sobre Mim</a>
+                <a href="#habilidades"><i class="fas fa-code"></i> Habilidades</a>
+                <a href="#projetos"><i class="fas fa-briefcase"></i> Projetos e Experiências</a>
+                <a href="#contato"><i class="fas fa-envelope"></i> Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <img src="marcio.png" alt="Foto de Marcio Faria" class="hero-img">
+            <div>
+                <h1>Marcio Faria</h1>
+                <h3>Analista e Desenvolvedor de Sistemas</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2><i class="fas fa-user"></i> Sobre Mim</h2>
+        <p>Tenho <strong>10 anos de experiência</strong> na área de TI e <strong>6 anos</strong> atuando no
+            desenvolvimento de sistemas. Trabalhei com sistemas para <strong>provedores de serviços de
+                pagamento</strong>, <strong>startups</strong>, <strong>plataformas de comércio eletrônico</strong> e
+            <strong>gestão de frota e combustível</strong> no agronegócio.</p>
+        <p>Possuo experiência sólida em <strong>JavaScript</strong>, <strong>PHP</strong> e <strong>C++</strong>, além
+            de familiaridade com outras tecnologias. Sou formado em <strong>Análise e Desenvolvimento de
+                Sistemas</strong>.</p>
+        <p>Comunico-me em <strong>português nativamente</strong> e tenho <strong>inglês conversacional</strong>.</p>
+    </section>
+
+
+    <section id="habilidades" aria-labelledby="titulo-hab">
+        <h2 id="titulo-hab"><i class="fas fa-code"></i> Habilidades</h2>
+        <div class="habilidades-grid" aria-live="polite" id="skills-visible">
+            </div>
+
+        <div id="skills-extra" class="skills-extra hidden">
+            <div class="habilidades-grid" style="margin-top:20px" id="skills-extra-grid">
+                </div>
+        </div>
+
+        <div style="text-align:center; margin-top:20px;">
+            <button id="toggleSkills" class="btn" aria-controls="skills-extra" aria-expanded="false">Mostrar
+                mais</button>
+        </div>
+    </section>
+
+    <section id="projetos" aria-labelledby="titulo-proj">
+        <h2 id="titulo-proj"><i class="fas fa-briefcase"></i> Projetos e Experiências</h2>
+        <div class="projetos-grid">
+            </div>
+    </section>
+
+    <section id="contato" aria-labelledby="titulo-contato">
+        <h2 id="titulo-contato"><i class="fas fa-address-book"></i> Contato</h2>
+        <div class="contato">
+            <a href="https://github.com/marciofaria-git" target="_blank" rel="noopener"><i class="fab fa-github"></i>
+                GitHub</a>
+            <a href="https://www.linkedin.com/in/marciomateusdev/" target="_blank" rel="noopener"><i
+                    class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="mailto:marciofaria@marciofaria.dev"><i class="fas fa-envelope"></i> Email</a>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Marcio Faria
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

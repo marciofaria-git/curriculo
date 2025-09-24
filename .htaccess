@@ -1,0 +1,9 @@
+##### LOCAWEB - NAO REMOVER #####
+#AddHandler php80-script .php
+#suPHP_ConfigPath /home/marciofaria1/
+##### LOCAWEB - NAO REMOVER #####
+
+
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.marciofaria.dev/$1 [R,L]
